@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym - Your Fitness Journey Starts Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Simple Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>FitLife<span>Gym</span></h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#classes" class="nav-link">Classes</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn-primary">Join Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Build Your Body, Transform Your Life</h1>
+                <p>Join FitLife Gym today and start your journey to a healthier, stronger you. Our expert trainers and state-of-the-art facilities are here to help you achieve your fitness goals.</p>
+                <div class="hero-btns">
+                    <a href="#pricing" class="btn-primary">Become a Member</a>
+                    <a href="#classes" class="btn-secondary">Explore Classes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p>Learn more about our gym and our mission</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img" data-aos="fade-right">
+                    <img src="https://source.unsplash.com/random/600x400/?gym" alt="Gym Interior">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Welcome to FitLife Gym</h3>
+                    <p>At FitLife Gym, we believe that fitness is not just about building a better body, but about building a better life. Our state-of-the-art facilities, expert trainers, and supportive community create the perfect environment for you to achieve your fitness goals.</p>
+                    <p>Founded in 2010, we've helped thousands of members transform their lives through fitness. Whether you're a beginner or a seasoned athlete, we have everything you need to succeed.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h4>Modern Equipment</h4>
+                            <p>Latest fitness technology and equipment</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Expert Trainers</h4>
+                            <p>Certified professionals to guide you</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>24/7 Access</h4>
+                            <p>Work out on your schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Classes</h2>
+                <p>Find the perfect workout for you</p>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="class-img">
+                        <img src="https://source.unsplash.com/random/400x300/?weightlifting" alt="Strength Training">
+                    </div>
+                    <div class="class-info">
+                        <h3>Strength Training</h3>
+                        <p>Build muscle and increase your strength with our comprehensive strength training program.</p>
+                        <div class="class-details">
+                            <span><i class="fas fa-clock"></i> 60 min</span>
+                            <span><i class="fas fa-fire"></i> High Intensity</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="class-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="class-img">
+                        <img src="https://source.unsplash.com/random/400x300/?yoga" alt="Yoga">
+                    </div>
+                    <div class="class-info">
+                        <h3>Yoga</h3>
+                        <p>Improve flexibility, balance, and mental clarity with our expert-led yoga classes.</p>
+                        <div class="class-details">
+                            <span><i class="fas fa-clock"></i> 45 min</span>
+                            <span><i class="fas fa-fire"></i> Low Intensity</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="class-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="class-img">
+                        <img src="https://source.unsplash.com/random/400x300/?cardio" alt="Cardio">
+                    </div>
+                    <div class="class-info">
+                        <h3>Cardio Blast</h3>
+                        <p>Burn calories and improve cardiovascular health with our high-energy cardio classes.</p>
+                        <div class="class-details">
+                            <span><i class="fas fa-clock"></i> 50 min</span>
+                            <span><i class="fas fa-fire"></i> High Intensity</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="class-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="class-img">
+                        <img src="https://source.unsplash.com/random/400x300/?pilates" alt="Pilates">
+                    </div>
+                    <div class="class-info">
+                        <h3>Pilates</h3>
+                        <p>Strengthen your core and improve posture with our specialized Pilates sessions.</p>
+                        <div class="class-details">
+                            <span><i class="fas fa-clock"></i> 55 min</span>
+                            <span><i class="fas fa-fire"></i> Medium Intensity</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="classes-cta" data-aos="fade-up">
+                <a href="#" class="btn-primary">View All Classes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Trainers</h2>
+                <p>Meet our team of expert fitness professionals</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trainer-img">
+                        <img src="https://source.unsplash.com/random/400x500/?trainer-male" alt="John Doe">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>John Doe</h3>
+                        <p>Strength & Conditioning</p>
+                    </div>
+                </div>
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trainer-img">
+                        <img src="https://source.unsplash.com/random/400x500/?trainer-female" alt="Jane Smith">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Jane Smith</h3>
+                        <p>Yoga & Pilates</p>
+                    </div>
+                </div>
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trainer-img">
+                        <img src="https://source.unsplash.com/random/400x500/?fitness-male" alt="Mike Johnson">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Mike Johnson</h3>
+                        <p>Cardio & HIIT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Testimonials</h2>
+                <p>What our members say about us</p>
+            </div>
+            <div class="swiper-container testimonial-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait-woman" alt="Sarah">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"FitLife Gym has completely transformed my fitness journey. The trainers are knowledgeable and supportive, and the community is so welcoming. I've achieved results I never thought possible!"</p>
+                            <h4>Sarah L.</h4>
+                            <span>Member for 2 years</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait-man" alt="David">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"I've been to many gyms over the years, but none compare to FitLife. The equipment is top-notch, the classes are challenging and fun, and the 24/7 access fits perfectly with my busy schedule."</p>
+                            <h4>David R.</h4>
+                            <span>Member for 1 year</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait-woman-2" alt="Emily">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"The yoga classes at FitLife have been a game-changer for my stress levels and flexibility. The instructors are amazing and really take the time to help you improve your form."</p>
+                            <h4>Emily T.</h4>
+                            <span>Member for 6 months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Gallery</h2>
+                <p>Take a look at our facilities and community</p>
+            </div>
+            <div class="gallery-grid" data-aos="fade-up">
+                <a href="https://source.unsplash.com/random/800x600/?gym-interior" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?gym-interior" alt="Gym Interior">
+                </a>
+                <a href="https://source.unsplash.com/random/800x600/?workout" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?workout" alt="Workout Session">
+                </a>
+                <a href="https://source.unsplash.com/random/800x600/?fitness-class" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?fitness-class" alt="Fitness Class">
+                </a>
+                <a href="https://source.unsplash.com/random/800x600/?gym-equipment" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?gym-equipment" alt="Gym Equipment">
+                </a>
+                <a href="https://source.unsplash.com/random/800x600/?yoga-class" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?yoga-class" alt="Yoga Class">
+                </a>
+                <a href="https://source.unsplash.com/random/800x600/?weight-training" class="gallery-item">
+                    <img src="https://source.unsplash.com/random/400x300/?weight-training" alt="Weight Training">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Membership Plans</h2>
+                <p>Choose the plan that fits your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Access to gym facilities</li>
+                            <li><i class="fas fa-check"></i> Standard operating hours</li>
+                            <li><i class="fas fa-check"></i> 2 group classes per week</li>
+                            <li><i class="fas fa-times"></i> Personal training sessions</li>
+                            <li><i class="fas fa-times"></i> Nutrition consultation</li>
+                            <li><i class="fas fa-times"></i> Access to premium classes</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <div class="popular">Most Popular</div>
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">59</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 24/7 gym access</li>
+                            <li><i class="fas fa-check"></i> Unlimited group classes</li>
+                            <li><i class="fas fa-check"></i> 1 personal training session/month</li>
+                            <li><i class="fas fa-check"></i> Basic nutrition consultation</li>
+                            <li><i class="fas fa-check"></i> Access to premium classes</li>
+                            <li><i class="fas fa-times"></i> Advanced performance tracking</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3>Elite</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 24/7 gym access</li>
+                            <li><i class="fas fa-check"></i> Unlimited group classes</li>
+                            <li><i class="fas fa-check"></i> 4 personal training sessions/month</li>
+                            <li><i class="fas fa-check"></i> Advanced nutrition planning</li>
+                            <li><i class="fas fa-check"></i> Access to all classes</li>
+                            <li><i class="fas fa-check"></i> Advanced performance tracking</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 Fitness Street, Gym City, GC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p>info@fitlifegym.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Monday - Friday: 5:00 AM - 11:00 PM</p>
+                            <p>Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215151464712!2d-73.98784492426285!3d40.75798657138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1683034730024!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>FitLife<span>Gym</span></h2>
+                    <p>Your journey to a healthier life starts here.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Classes</h3>
+                    <ul>
+                        <li><a href="#">Strength Training</a></li>
+                        <li><a href="#">Cardio</a></li>
+                        <li><a href="#">Yoga</a></li>
+                        <li><a href="#">Pilates</a></li>
+                        <li><a href="#">HIIT</a></li>
+                        <li><a href="#">Zumba</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FitLife Gym. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
